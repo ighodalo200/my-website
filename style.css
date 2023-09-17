@@ -1,0 +1,45 @@
+*{
+    list-style: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+ul>li>a{
+    color:yellow;
+    text-decoration: none;
+}
+body{
+    height: 100%;
+
+}
+
+header{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    font-size: 1.2rem;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 900;
+    color: tomato;
+}
+
+footer{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+}
